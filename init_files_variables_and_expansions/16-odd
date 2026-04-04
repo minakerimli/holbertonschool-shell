@@ -1,2 +1,2 @@
 #!/bin/bash
-paste -d '\n' - - | head -n -1
+pr -2 -l 1 -t | cut -f 1
